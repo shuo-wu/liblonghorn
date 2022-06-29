@@ -38,6 +38,7 @@ struct Message {
 enum uint32_t {
 	TypeRead,
 	TypeWrite,
+	TypeUnmap,
 	TypeResponse,
 	TypeError,
 	TypeEOF,
